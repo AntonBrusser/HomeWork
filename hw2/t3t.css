@@ -1,0 +1,42 @@
+.size
+{
+    border: 2px solid black;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+}
+#numbers
+{
+    background-color: rgb(66, 154, 255);
+    margin-left: 95%;
+}
+
+
+.shape1
+{
+    border-bottom: 1px dotted black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+.shape2
+{
+    border-bottom: 1px dotted black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px dotted black;
+}   
+.shape3
+{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 1px dotted black;
+}
+
+#names
+{
+background-color: gray;
+margin-left: 730px;
+margin-top: -105px;
+}

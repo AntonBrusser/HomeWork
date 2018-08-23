@@ -1,0 +1,66 @@
+#LT1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 90px;
+   <!--cant make it go down with the scroll-->
+}
+
+
+#LT2{
+background-image: url("reka.jpg");
+background-repeat: round;
+font-family: fantasy;
+text-align: center;
+}
+ #title{
+     
+     font-size: 30px;
+ }
+
+table{
+    margin-left: 38%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.pic1{
+    width: 5cm;
+    height: 3.5cm;
+}
+.desc{
+    background-color: white; opacity: 50%;
+}
+.price{
+    background-color: brown;
+    color: white;
+}
+
+#tip{
+    margin-left:  1cm;
+}
+#b1{
+    margin-left:  1cm;
+}
+
+#LT3{
+    background-color: rgb(80, 30, 22);
+    font-family: fantasy;
+    text-align: center;
+    color: wheat;
+    height: 3cm;
+    }
+ #LT4{
+        background-color: rgba(255, 255, 255, 0.596);
+        text-align: center;
+        height: 2cm;
+        }
+a :hover{
+    color: green;
+    font-size: 20px;
+}
+a :active{
+    color: rgb(255, 13, 13);
+}
+
+< !-- cant make it change the colors  -- >
+

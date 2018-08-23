@@ -1,0 +1,62 @@
+#p11
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    text-shadow: 0.3cm 0.3cm green;
+    
+    
+}
+
+#p1
+{
+    font-size: 18px;
+    text-indent: 1cm;
+    color: crimson;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 2.25cm;
+
+}
+#p2
+{
+    font-size: 18px;
+    text-indent: 1cm;
+    color: rgb(255, 253, 153);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 2.25cm;
+    text-transform: capitalize;
+
+}
+#p3
+{
+    font-size: 18px;
+    text-indent: 1cm;
+    color: midnightblue;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 2.25cm;
+
+}
+#p4
+{
+    font-size: 18px;
+    text-indent: 1cm;
+    color: slateblue;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 2.25cm;
+
+}
+#p5
+{
+    font-size: 18px;
+    text-indent: 1cm;
+    color: rgb(36, 155, 46);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 2.25cm;
+
+}
