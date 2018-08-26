@@ -1,0 +1,69 @@
+
+
+
+#pic1
+{
+width: 350px;
+height: 250px;
+background-image: url("img1.jpg");
+position: relative;
+animation: MOVE 6s infinite;
+}
+
+
+
+
+
+#pict{
+    width: 150px;
+    height: 100px;
+    background-image: url(img2.jpg);
+    background-repeat: round;
+    position: relative;
+    z-index: 1;
+    animation: MMOVE 6s infinite;
+
+}
+
+#black{
+    width: 0px;
+    height: 0px;
+    animation: GROW 7s 1;
+    position: relative;
+    z-index: 2;
+}
+
+
+#pict :hover
+{
+    animation: GROW 6s 1;
+}
+
+
+
+
+@keyframes GROW
+{
+   
+  from {width: 0px; height: 0px; }
+  to { width: 500px; height: 500px;padding-right: 200%; padding-bottom: 200%;}  
+}
+
+
+@keyframes MMOVE
+{
+    0% {top: 0%; left: 0%;}
+    25% {top: 60%; left: 30%;}
+    50% {top: 5%; left: 50%;}
+    100% {top: 0%; left: 0%;}
+}
+
+@keyframes MOVE
+{
+    0% {top: 0px; left: 0px;}
+    25% {top: 400px; left: 600px;}
+    50% {top: 200px; left: 600px;}
+    75% {top: 300px; left: 100px;}
+    100% {top: 0px; left: 0px;}
+
+}
