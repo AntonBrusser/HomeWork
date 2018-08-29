@@ -1,0 +1,136 @@
+.banner
+{
+    background-color: #003580;
+    outline-color: #003580;
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 0px;
+    color: white;
+    border: #003580;
+}
+
+.bannerB
+{
+    background-color: #003580;
+    color: white;
+    border: #003580;
+}
+
+button :hover{
+    background-color: #07c;
+}
+
+.bannerW{
+    background-color: #ededed;
+    outline-color: #ededed;
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 0px;
+    color: black;
+    border: #ededed;
+    height: 260px;
+}
+
+.bannerS
+{
+    background-color: #07c;
+    color: white;
+    border: #07c;
+    width: 90px;
+    height: 50px;
+   
+}
+
+
+.left
+{
+    background-image: url(https://q-ec.bstatic.com/xdata/images/city/540x270/350009.jpg?k=2cbfa5b361244fade54d605a484220b702003f535ae93746d44f148047eec87c&o=);
+    height: 270px;
+}
+
+.left :hover
+{
+    background-color: rgba(0, 0, 0, 0.308);
+
+}
+
+.white-text-b
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-shadow: black 2px 2px 
+
+}
+
+.white-text-s
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-shadow: black 1px 1px
+}
+
+.right
+{
+    background-image: url(https://r-ec.bstatic.com/xdata/images/city/540x270/349569.jpg?k=ba9c5db22f7e6c05dbfa4378bc7629207ac86f6993d3e50cd4780a2871d497be&o=);
+    height: 270px;
+}
+.right :hover
+{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.price
+{
+    margin-left: 440px;
+    margin-top: 130px;
+    background-color: rgb(49, 48, 48);
+    line-height: 0px;
+    text-align: right;
+}
+
+.pricetop{
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+.bannerS :hover
+ { 
+     
+     background-color: #003580;
+    
+
+}
+
+ .serchb{
+     border: 2px solid orange;
+     background-color: white;
+ }
+
+
+#ddd
+{
+    color: white;
+    margin-left: 400px;
+}
+
+#BigLine
+{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+    line-height: 0px;
+}
+#SmallLine
+{
+    font-weight: 340;
+}
+
+table tr td
+{
+    border: 5px solid orange;
+    background-color: white;
+    border-radius: 5px;
+    
+}
