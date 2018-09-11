@@ -60,19 +60,32 @@ function whoIsLong()
     if (numL == numR) {document.getElementById("longR").innerHTML = " "; document.getElementById("longL").innerHTML = " ";  }
 }
                     // לא הצלחתי
-function stringCut()
-{
-    var strR = document.getElementById("gimelt1").value;
-    var strL = document.getElementById("gimelt2").value;
-    var numR = strR.length;
-    var numL = strL.length;
-    var cutR = numR - numL;
-    var cutL = numL - numR;
-    var strNewR = strR.slice(0,cutR);
-    var strNewL = strL.slice(0,cutL);
-    if (numR > numL) {  document.getElementById("gimelt1").innerHTML = strNewR;  }
-    if (numR < numL) {  document.getElementById("gimelt2").innerHTML = strNewL;  }
-}
+                    function stringCut()
+                    {
+                    var t1 = document.getElementById("gimelt1").value;
+                    var t2 = document.getElementById("gimelt2").value;
+                    var num1 = t1.length;
+                    var num2 = t2.length;
+                    
+                    var cut1 = num1 - num2;
+                    var cut2 = num2 - num1;
+                    
+                    if (num1>num2)
+                     {
+                        var strcut1 = t1.slice(0,(num1-cut1));
+                        
+                        document.getElementById("gimelt1").innerHTML = strcut1;
+                        }
+                    
+                    
+                    if (num2>num1)
+                     {
+                         
+                        var strcut2 = t2.slice(0,(num2-cut2));
+                        
+                        document.getElementById("gimelt2").innerHTML = strcut2;
+                    
+                    }
 
                 
                 // סעיף 4
