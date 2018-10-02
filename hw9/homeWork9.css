@@ -1,0 +1,405 @@
+#javadiv1 {
+margin-top: 0.2cm;
+width: 10cm;
+height: 5cm;
+border-style: solid;
+border-width: 2px;
+border-color: rgb(255, 179, 179);
+border-radius: 10px;
+text-align: center;
+font-family: monospace;
+background-color: black;
+color: greenyellow;
+margin-left: 0.42cm;
+}
+
+#section1 {
+    width: 11cm;
+    height: 7.5cm;
+    border-radius: 10px;
+    background-color: rgb(117, 62, 62);
+}
+
+#sec1
+{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+
+
+#section2
+{
+margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(148, 129, 77);
+
+}
+
+
+#btnA
+{
+    margin-left: 115;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+#btnB
+{
+
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+#randNum
+{
+    
+    font-size: 40px;
+    width: 350px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: greenyellow;
+    margin-left: 120px;
+    font-family: monospace;
+    
+    
+    
+}
+#javadiv2
+{
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+#section3
+{
+margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(66, 70, 131);
+}
+
+#javadiv3
+{
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#fullNum
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+#chack
+{
+    font-size: 30px;
+}
+
+#text1
+{
+    color: greenyellow;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+
+}
+
+
+
+
+
+
+#section4
+{
+margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(206, 198, 96);
+}
+
+
+
+
+#spinNum
+{
+    background-color: black;
+    width: 300px;
+    height: 60px;
+
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+   
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: greenyellow;
+    margin-left: 50px;
+    font-family: monospace;
+}
+
+#spin
+{
+    font-size: 20px;
+    margin-left: 145px;
+}
+
+#javadiv44
+{
+    margin-top: 25px;
+}
+
+#chackNum
+{
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+
+#section5
+{
+margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(81, 160, 71);
+}
+
+#noSpace
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 370px;
+    text-align: center;
+}
+
+#spase
+{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+
+
+}
+
+#javadiv55
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(6, 192, 248);
+    font-size: 30px;
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#section6
+{
+margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(160, 71, 126);
+}
+
+#javadiv66
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(6, 192, 248);
+    font-size: 30px;
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#poli
+{
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 10px;
+
+}
+
+#polindrom
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 370px;
+    text-align: center;
+}
+
+
+
+
+#section7
+{
+    margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(153, 54, 54);
+}
+
+#str7
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 370px;
+    text-align: center;  
+}
+
+#sorter
+{
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+#javadiv77
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: black;
+    color:greenyellow;
+    font-size: 30px;
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#section8
+{
+    margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(54, 85, 153);
+}
+
+#strBig
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 370px;
+    text-align: center; 
+}
+
+#strSmall
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 370px;
+    text-align: center; 
+}
+
+#btn8
+{
+    font-size: 20px;
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+#javadiv88
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: black;
+    color:greenyellow;
+    font-size: 30px;
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+#section9
+{
+    margin-top: 0px;
+width: 11cm;
+height: 7.5cm;
+border-radius: 10px;
+background-color: rgb(154, 216, 83);
+}
+
+#javadiv99
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: black;
+    color:greenyellow;
+    font-size: 30px;
+    width: 350px;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#noNums
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 370px;
+    text-align: center;  
+}
+
+#findNums
+{
+    font-size: 20px;
+    margin-left: 175px;
+    margin-top: 10px;
+}
