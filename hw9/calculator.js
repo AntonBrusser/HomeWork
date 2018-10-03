@@ -145,7 +145,7 @@ function fEqual()
 
 
     document.getElementById("input").innerHTML = eval(more);
-    more = "";
+    more = document.getElementById("input").innerHTML;
 
 
    
