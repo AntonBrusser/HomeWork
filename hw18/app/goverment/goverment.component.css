@@ -1,0 +1,43 @@
+.maindiv{
+    background-image: url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.div{
+    background-color: rgba(240, 255, 255, 0.712);
+    width: 500px;
+    height: 500px;
+    margin-left: 225px;
+    /* border: 100px solid rgba(0, 0, 0, 0); */
+    
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.sentence{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.sentence1{
+    margin-left: 50px;
+    
+}
+
+.nextB{
+    margin-left: 300px;
+}
+
+#idLabe{
+    margin-left: 10px;
+}
+
+
+table{
+    text-align: center;
+}
+

@@ -1,0 +1,135 @@
+<div class="maindiv"> 
+
+<div *ngIf = "Page1" class="div">
+    <h1>welcom</h1>
+
+    <div class="sentence">
+        <span> click here for a random ID: </span> 
+        <button (click)=" VoteRandNum()" class="btn btn-outline-warning" > click </button>
+        <br>
+        <br>
+             <span> your ramdom ID is :</span>  <span *ngIf = "showVoteRandNum" class="text-danger"> <strong> {{voteRandNum}} </strong> </span> <br>
+        <br>
+        <br>
+    </div>
+    <span class="nextB">
+        <button (click)="isPage2()" class="btn btn-danger">next</button>
+    </span>
+
+    
+</div>
+
+
+
+<div *ngIf = "Page2" class="div">
+    <h1>creat 9 members</h1>
+        
+     <div class="sentence1" >
+       <div *ngIf = "smallDiv1"> 
+        name: <br> <input [(ngModel)]="name" type="text" class="inpuText"> <br>
+        ID:  <br> <input [(ngModel)]="id" type="number" class="inpuText"> 
+       </div>
+    </div>
+           
+             <span class="nextB">       
+                <button (click)="createPartyMembers()" class="btn btn-danger" >next</button>
+             </span>
+
+    <div class="sentence1">
+         <p>you created <strong>{{i}}</strong></p>
+    </div>
+<ul>
+    <li *ngFor = "let PartyMember of arryOfPartyMembers">
+            <label> Name: <strong> {{PartyMember.name}}  </strong> </label> <label id="idLabe"> ID: <strong> {{PartyMember.id}} </strong> </label>
+    </li>
+</ul>
+    
+     
+</div>
+
+
+
+<div *ngIf = "Page3" class="div">
+    <h1>Create 3 Parties</h1>
+      
+<div class="sentence">   
+    <div *ngIf = "smallDiv2">
+        ID of  Party:  <br> <input [(ngModel)]="numberIDinput" type="number"> <br>
+        ID Of Party Manager:  <br> <input [(ngModel)]="IDOfMangerinput" type="number"> <br>
+      </div>
+</div>
+      <p class="sentence" >you created <strong> {{y}} </strong></p>
+
+      <span class="nextB">
+        <button (click)="createMiflaga()" class="btn btn-danger">next</button>
+      </span>
+
+<ul>
+    <li *ngFor = " let Miflaga of this.arrayOfMiflaga">
+        <label> Party ID: <strong> {{Miflaga.numberID}} </strong> </label>  
+    </li>
+</ul>
+
+</div>
+
+
+
+<div *ngIf = "Page4" class="div">
+    <h1>The Partys are:</h1>
+        
+        <br><br>
+
+        <table class="table table-hover">
+            <tr class="table-light">
+                <td>
+                  <strong>  {{arrayOfMiflaga[0].numberID}} </strong>
+                </td>
+                <td>
+                   <strong>  {{arrayOfMiflaga[1].numberID}} </strong>
+                </td>
+                <td>
+                    <strong>  {{arrayOfMiflaga[2].numberID}} </strong>
+                </td>
+            </tr>
+            <tr class="table-light">
+                <td>
+                    {{arryOfPartyMembers[0].name}}
+                </td>
+                <td>
+                    {{arryOfPartyMembers[1].name}}
+                </td>
+                <td>
+                    {{arryOfPartyMembers[2].name}}
+                </td>
+            </tr>
+             <tr class="table-light">
+                <td>
+                    {{arryOfPartyMembers[3].name}}
+                </td>
+                <td>
+                    {{arryOfPartyMembers[4].name}}
+                </td>
+                <td>
+                    {{arryOfPartyMembers[5].name}}
+                </td>
+            </tr>
+             <tr class="table-light">
+                <td>
+                    {{arryOfPartyMembers[6].name}}
+                </td>
+                <td>
+                    {{arryOfPartyMembers[7].name}}
+                </td>
+                <td>
+                    {{arryOfPartyMembers[8].name}}
+                </td>
+            </tr>
+        </table>
+  <span class="nextB">    
+    <button (click)="isPage1()" class="btn btn-outline-danger">Return</button>
+  </span>  
+</div>
+
+
+
+</div>
