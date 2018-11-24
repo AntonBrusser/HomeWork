@@ -1,0 +1,34 @@
+<div *ngIf = "myService.showDivs">
+<div class="incertData" *ngIf = "flag" >
+ 
+    
+    <p class="head1">Create Player Number {{page + 1}}:</p>
+
+       <label for="userName">Name of Player:</label> <br>
+       <input class="input1" [(ngModel)] = "name" type="text">
+          <br>
+       <label for="userName">Age:</label> <br>
+       <input class="input1" [(ngModel)] = "age" type="number">
+          <br>
+          <br>
+ 
+
+   <button id="nextb" class="btn btn-outline-success" (click) = "savePlayer()" >Next</button>
+   </div>
+  
+
+<div class="incertData" *ngIf = "!flag">
+  <p class="head1">Create a Team:</p> 
+  <input class="input1" [(ngModel)] = "NameOfTeam" type="text"> 
+<br><br>
+  <button id="creatrb" class="btn btn-outline-primary"  (click) = "createNewTeam()">Create</button>
+  <br><br>
+  <button id="doneb" class="btn btn-outline-info" (click) = "hideMe()">Done</button>
+
+  
+ </div>
+
+</div>
+
+
+

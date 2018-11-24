@@ -1,0 +1,15 @@
+<div>
+  <p class="head">Teams:</p>
+    
+  
+    <ol>
+      <li *ngFor = "let i of arr">
+        {{i.toString()}}
+      </li>
+    </ol>
+  
+
+  <button id="startB" class="btn btn-outline-danger" *ngIf = "myService.showStart" (click) = "notHideMe()" > Start Again </button>
+
+</div>
+

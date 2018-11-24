@@ -1,0 +1,63 @@
+.incertData{
+    width: 600px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.74);
+    
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+    padding: 5%;
+}
+
+.head{
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.308);
+}
+
+.head1{
+    font-family: fantasy;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.308);
+}
+
+.input1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#creatrb{
+    left: 50%;
+    top: 60%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 50px;
+
+}
+
+#nextb{
+    left: 50%;
+    top: 85%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 50px;
+
+}
+
+#doneb{
+    left: 50%;
+    top: 75%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 50px;
+}
